@@ -20,9 +20,14 @@
 }
 
 .navbar,
-.banner{
+.banner,
+.plants{
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.text-color1{
+    color: #E95A08;
 }
 
 /* navbar styles */
@@ -86,10 +91,6 @@
     margin-bottom: 13px;
 }
 
-.fresh{
-    color: #E95A08;
-}
-
 .banner-description{
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.37rem;
@@ -97,6 +98,61 @@
     margin: 0;
 }
 
+/* plants section styles */
+
+.pants-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plants-title{
+    font-size: 3.15rem;
+    font-weight: 700;
+}
+
+.plants-description{
+    font-size: 1.37rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.plants-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.plant-image{
+    width: 100%;
+}
+
+.plant-name{
+    font-size: 1.37rem;
+    font-weight: 500;
+    color: #111111;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.plant-price{
+    font-size: 1.37rem;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.common-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFF;
+    padding: 19px 80px;
+    background-color: #E95A08;
+    border: none;
+}
+
+/* plants lover section styles */
 
 
 
@@ -164,5 +220,42 @@
     .banner-description{
         font-size: 0.8rem;
     }
+
+    /* plants */
+
+    .plants-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .plants-title{
+        font-size: 1.5rem;
+    }
+
+    .plants-description{
+        font-size: 0.8rem;
+    }
+
+    .pants-head{
+        padding: 0px 28px;
+        padding-top: 60px;
+        margin-bottom: 28px;
+    }
     
+    .plant-price{
+        font-size: 1rem;
+    }
+
+    .plant-name{
+        font-size: 1rem;
+    }
+
+    .common-btn{
+        padding: 19px 30px;
+        font-size: 0.8rem;
+    }
+
+    /* plants lover */
+
+
 }
