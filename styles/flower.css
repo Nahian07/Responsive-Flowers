@@ -21,7 +21,8 @@
 
 .navbar,
 .banner,
-.plants{
+.plants,
+.plants-lover{
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -154,6 +155,46 @@
 
 /* plants lover section styles */
 
+.plants-lover{
+    justify-content: space-between;
+    padding: 150px 0px;
+    position: relative;
+}
+
+.plants-lover-image{
+    width: 100%;
+}
+
+.trusted-badge{
+    max-width: 280px;
+}
+
+.trusted-badge-div{
+    position: absolute;
+    top: 10px;
+    left: 370px;
+}
+
+.plants-lovers-content{
+    max-width: 540px;
+}
+
+.lovers-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.lovers-list{
+    font-size: 1.37rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0px;
+}
+
+.lovers-list > li{
+    margin: 40px 0px;
+}
 
 
 
@@ -257,5 +298,25 @@
 
     /* plants lover */
 
+    .plants-lover{
+        flex-direction: column;
+        padding: 40px 5px;
+    }
+
+    .trusted-badge{
+        display: none;
+    }
+
+    .lovers-title{
+        font-size: 1.5rem;
+    }
+
+    .lovers-list{
+        font-size: 0.8rem;
+    }
+
+    .lovers-list > li{
+        margin: 15px 0px;
+    }
 
 }
