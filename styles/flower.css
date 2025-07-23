@@ -22,7 +22,8 @@
 .navbar,
 .banner,
 .plants,
-.plants-lover{
+.plants-lover,
+.footer{
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -225,7 +226,47 @@
     border: none;
 }
 
+/* footer styles */
 
+.footer{
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    max-width: 360px;
+}
+
+.footer-description{
+    font-size: 1.37rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-link-ul a{
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+}
+
+.footer-link-ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 110px;
+}
+
+.icon-links{
+    display: flex;
+    gap: 25px;
+}
+
+.icon-links img{
+    width: 100%;
+}
+
+#twitter{
+    padding-top: 10px;
+}
 
 
 
@@ -364,5 +405,21 @@
 
     #input-btn{
         padding: 19px 12px;
+    }
+
+    /* footer */
+
+    .footer{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .footer-link-ul{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+
+    .footer-description{
+        font-size: 1rem;
     }
 }
